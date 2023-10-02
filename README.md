@@ -31,7 +31,8 @@ JavaScript библиотека: **React**
 
 
 3. **Просмотр сохраненных списков:**
-   <img width="576" alt="Создание списка" src="https://github.com/Polkob/GroceryList/assets/93399289/2d0e6905-f28c-4103-859e-4eae04254a0d">
+   <img width="576" alt="Мои списки" src="https://github.com/Polkob/GroceryList/assets/93399289/95fd6e3d-e227-40b3-b0b6-01478d86bde1">
+
 
 
 4. **Категоризация товаров:**
