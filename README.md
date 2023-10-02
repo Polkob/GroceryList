@@ -22,24 +22,25 @@ JavaScript библиотека: **React**
 
 Пользовательское взаимодействие с веб-приложением для списка покупок должно быть интуитивно понятным, удобным и эффективным. Основные [мокапы](https://github.com/Polkob/GroceryList/tree/main/%D0%9C%D0%BE%D0%BA%D0%B0%D0%BF%D1%8B):
 
-1. **Главное меню:**
-<img width="576" alt="Главное меню" src="https://github.com/Polkob/GroceryList/assets/93399289/13e31bc9-7d7f-4fe8-832f-c326c36ee243">
+1. **Регистрация:**
+<img width="535" alt="Регистрация" src="https://github.com/Polkob/GroceryList/assets/93399289/d281dec1-d410-410d-85a0-a33d30e778ab">
 
 
-2. **Создание нового списка покупок:**
-   <img width="576" alt="Создание списка" src="https://github.com/Polkob/GroceryList/assets/93399289/c38c1971-ea9c-41d9-9500-6a6496db8ae6">
+2. **Просмотр сохраненных списков:**
+   <img width="544" alt="Мои списки" src="https://github.com/Polkob/GroceryList/assets/93399289/f48cc2e4-cf35-482b-9959-d936142c6937">
 
 
-3. **Просмотр сохраненных списков:**
-   <img width="576" alt="Мои списки" src="https://github.com/Polkob/GroceryList/assets/93399289/95fd6e3d-e227-40b3-b0b6-01478d86bde1">
+3. **Создание нового списка:**
+  <img width="539" alt="Создание списка" src="https://github.com/Polkob/GroceryList/assets/93399289/5a09b26c-14c4-4497-8933-00f63b35f3d0">
 
 
+4. **Удаленные списки:**
+   <img width="540" alt="История" src="https://github.com/Polkob/GroceryList/assets/93399289/64f2e7fc-46b3-4fa5-96eb-63664d484409">
 
-4. **Категоризация товаров:**
-   - Для удобства пользователей, приложение будет предоставлять опции для организации товаров по категориям, таким как продукты, молочные продукты, мясо, фрукты и т. д.  
 
 5. **Редактирование и дополнительные функции:**
-   - Пользователи будут иметь возможность редактировать названия списков, добавлять заметки или даты, связанные с покупками.
+  <img width="543" alt="Редактирование списка" src="https://github.com/Polkob/GroceryList/assets/93399289/9c399422-7b0b-4c70-ba30-9e8fb5578182">
+
 
 
 ### 2.3 Характеристики пользователя
