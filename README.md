@@ -37,12 +37,7 @@ JavaScript библиотека: **React**
     <img width="539" alt="Создание списка" src="https://github.com/Polkob/GroceryList/assets/93399289/5a09b26c-14c4-4497-8933-00f63b35f3d0">
 
 
-4. **Удаленные списки:**
-
-    <img width="540" alt="История" src="https://github.com/Polkob/GroceryList/assets/93399289/64f2e7fc-46b3-4fa5-96eb-63664d484409">
-
-
-5. **Редактирование и дополнительные функции:**
+4. **Редактирование и дополнительные функции:**
 
     <img width="543" alt="Редактирование списка" src="https://github.com/Polkob/GroceryList/assets/93399289/9c399422-7b0b-4c70-ba30-9e8fb5578182">
 
