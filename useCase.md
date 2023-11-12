@@ -10,7 +10,7 @@
 
 2.1 Добавить покупку
 
-2.2 Удалить покупку
+2.2 [Удалить покупку](https://github.com/Polkob/GroceryList/blob/main/useCase.md#22-%D1%83%D0%B4%D0%B0%D0%BB%D0%B8%D1%82%D1%8C-%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D1%83)
 
 2.3 [Изменить покупку](https://github.com/Polkob/GroceryList/blob/main/useCase.md#23-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C-%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BA%D1%83)
 
