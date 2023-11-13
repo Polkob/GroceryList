@@ -90,15 +90,19 @@ JavaScript библиотека: **React**
 ## Диаграммы
 
 **Диаграмма классов**
+---
 ![Диаграмма классов](https://github.com/Polkob/GroceryList/assets/93399289/842c01d3-4478-4f4e-a76b-7499675307d4)
 
 **Диаграмма состояний**
+---
 ![Диаграмма состояний](https://github.com/Polkob/GroceryList/assets/93399289/af192333-26fc-4791-bb89-43ea9974e65a)
 
 **Диаграмма активности**
+---
 ![Диаграмма последовательностей](https://github.com/Polkob/GroceryList/assets/93399289/0eeb6e22-29de-4ef3-98aa-12704c34c8e7)
 
 **Диаграмма последовательностей**
+---
 ![Диаграмма ](https://github.com/Polkob/GroceryList/assets/93399289/6502d08b-9936-4a48-95b8-6fe4b9e8d7b5)
 
 
