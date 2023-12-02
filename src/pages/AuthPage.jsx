@@ -7,44 +7,16 @@ const AuthPage = ({ isExist }) => {
   const [password, setPassword] = useState('');
 
   const handleFormSubmit = async () => {
-
-    if(isExist){
-
-        console.log("login")
-
-        try {
-
-            const response = await methods.login(username,password)
-
-            console.log(response)
-
-            if(response.status === 200){
-                localStorage.setItem('token', response.data.token)
-            }
-
-        } catch (error) {
-            console.log(error)
-        }
-
-    }else if(!isExist){
-
-
-        try{
-
-            const response = await methods.register(username,password)
-
-            console.log(response)
-
-            if(response.status === 200){
-                localStorage.setItem('token', response.data.token)
-            }
-
-        }catch(error){
-            console.log(error)
-        }
-
-    }
-
+    
+      if (isExist) {
+        const data = await methods.login(username, password);
+        console.log(data)
+      } else {
+        const data = await methods.register(username, password);
+        console.log(data)
+      }
+    
+    
   };
 
   return (

@@ -8,16 +8,10 @@ const api = axios.create({
 
 export const methods = {
 
-    register(username,password) {
-         return api.post("user/register", {
-            Username: username,
-            Password: password
-         })
+    register(Username, Password) {
+        return api.post(`user/register?Username=${Username}&Password=${Password}`);
     },
-   login(username,password) {
-       return api.post("user/login",{
-             Username: username,
-             Password: password
-       })
+    login(Username, Password) {
+        return api.post(`user/login?Username=${Username}&Password=${Password}`);
     },
 }
