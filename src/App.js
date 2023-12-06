@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React, { Fragment, useState } from 'react';
+import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import AuthPage from './pages/AuthPage';
 import Header from './components/Header';
 import NotFound from './pages/NotFound';
@@ -11,7 +11,9 @@ import ShoppingList from './components/ShoppingList';
 const App = () => {
   const [lists, setLists] = useState([]);
   const [items, setItems] = useState([]);
-
+  const [selectedList, setSelectedList] = useState(null);
+ 
+ 
   const addList = (listName) => {
     setLists([...lists, { id: Date.now(), name: listName }]);
   };
@@ -19,6 +21,8 @@ const App = () => {
   const addItem = (listId, itemName) => {
     setItems([...items, { id: Date.now(), listId, name: itemName }]);
   };
+
+  
 
   const editList = (listId, newName) => {
     setLists((prevLists) =>
@@ -40,37 +44,62 @@ const App = () => {
     setItems((prevItems) => prevItems.filter((item) => item.id !== itemId));
   };
 
-  return (
-    <BrowserRouter>
-      <CssBaseline />
-      <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-        <Header />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/login" element={<AuthPage isExist={true} />} />
-          <Route path="/register" element={<AuthPage isExist={false} />} />
+  const location = useLocation()
 
+  const [user,setUser] = useState(false)
+
+  const renderHeader = location.pathname !== "/login" && location.pathname !== "/register"
+
+
+
+  return (
+    <Fragment>
+      <CssBaseline />
+      <div style={{ maxWidth: '2200px', margin: '0 auto', backgroundColor: '#fff7e2ee' }}>
+         {renderHeader && <Header user={user} setUser={setUser}/> }
+
+
+        <Routes>
           <Route
-            path="/list"
-            element={
-              <ShoppingList
+          path="/"
+          element={
+            user ? (
+              <Home
                 lists={lists}
                 items={items}
-                onAddList={addList}
+                selectedList={selectedList}
+                onSelectList={setSelectedList}
                 onAddItem={addItem}
                 onEditList={editList}
                 onDeleteList={deleteList}
                 onEditItem={editItem}
                 onDeleteItem={deleteItem}
               />
+            ) : (
+              <Navigate to="/login"/>
+            )
+          }
+           />
+          <Route path="/login" element={<AuthPage setUser={setUser} isExist={true} />} />
+          <Route path="/register" element={<AuthPage setUser={setUser} isExist={false}/>} />
+          <Route
+            path="/list"
+            element={
+              <ShoppingList
+                lists={lists}
+                onSelectList={setSelectedList}
+                onAddList={addList}
+                onDeleteList={deleteList}
+              />
             }
           />
-
+          
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </Fragment>
   );
 };
 
 export default App;
+

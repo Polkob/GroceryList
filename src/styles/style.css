@@ -1,0 +1,31 @@
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    color:rgb(69, 54, 41);
+    background-color: #604833;
+    margin-left: 20px;
+    padding-top: 300px;
+    
+  }
+  
+  .header-container ul {
+    /* display: flex;
+    flex-direction: column; */
+    padding: 0;
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header-container {
+      width: 100%;
+      border-right: none;
+      height: 100%; /* Убираем линию справа на мобильных устройствах */
+    }
+  }
+  
+  /* .header-container li {
+    margin-bottom: 0px;
+
+  } */
+  
