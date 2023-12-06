@@ -90,7 +90,7 @@ JavaScript библиотека: **React**
 ---
 ## 4 Проект
 
-Ссылка на проект: 
+Ссылка на проект: [project](https://github.com/Polkob/GroceryList/tree/dev)
 
 ---
 ## Диаграммы
