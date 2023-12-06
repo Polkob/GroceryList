@@ -20,7 +20,7 @@
 1. **Клонировать репозиторий:**
 
    ```bash
-   git clone https://github.com/khodosevich/shopping-list.git
+   git clone https://github.com/Polkob/GroceryList.git
 2. **Перейти в директорию проекта:**
 
    ```bash
