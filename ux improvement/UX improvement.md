@@ -90,12 +90,20 @@
 
 ![Снимок экрана (26)](https://github.com/Polkob/GroceryList/assets/93399289/bdeb6616-6eda-4806-a150-ddd97adb794a)
 
+![Снимок экрана (27)](https://github.com/Polkob/GroceryList/assets/93399289/c1cfa97e-655e-4a4c-bbab-5d6648880fba)
+
 Дизайн страниц со списками "после"
 <img width="939" alt="Снимок экрана 2024-03-26 231710" src="https://github.com/Polkob/GroceryList/assets/93399289/f2c69b3a-2b39-4809-80a5-317ce5bbf237">
+<img width="564" alt="Снимок экрана 2024-03-26 235145" src="https://github.com/Polkob/GroceryList/assets/93399289/9b7512ad-de71-43ab-8706-16eb8775f3f0">
 
 Добавлены подсказки пользователю
 
 <img width="436" alt="Снимок экрана 2024-03-26 233151" src="https://github.com/Polkob/GroceryList/assets/93399289/48fe5f08-1cda-493f-88a2-bac82aa34923">
 <img width="419" alt="Снимок экрана 2024-03-26 233212" src="https://github.com/Polkob/GroceryList/assets/93399289/126598ea-dab6-4413-a805-362b731021be">
+<img width="413" alt="Снимок экрана 2024-03-26 235949" src="https://github.com/Polkob/GroceryList/assets/93399289/e2f5df13-48ca-462b-97cf-197ae0c1bfaa">
+<img width="394" alt="Снимок экрана 2024-03-27 000234" src="https://github.com/Polkob/GroceryList/assets/93399289/c0d64064-caa9-491f-a4bd-e1abfc5684dc">
+
+Добавлена сортировка списков по алфавиту
+<img width="486" alt="Снимок экрана 2024-03-27 000416" src="https://github.com/Polkob/GroceryList/assets/93399289/99b54638-2c56-41bb-80ff-3df36aaab5ee">
 
 Дизайн хорошо подстраивается под разный масштаб.
